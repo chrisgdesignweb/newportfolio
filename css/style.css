@@ -441,6 +441,9 @@ form {
 .u-max-full-width {
   max-width: 100%;
   box-sizing: border-box; }
+#u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
 .u-pull-right {
   float: right; }
 .u-pull-left {
@@ -471,8 +474,7 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .logo {
-    height: 35%;
-    width: 35%;
+
     padding-top: 20px;
 }
 
@@ -529,6 +531,8 @@ hr {
 
 .patternlibrary {
     border: 3px #efefef solid;
+     max-width: 100%;
+  box-sizing: border-box;
 }
 
 input[type=text] {
@@ -548,6 +552,23 @@ textarea {
 }
 
 
+.flink  {
+    text-decoration: none;
+    border-bottom: #000 4px solid;
+}
+
+.contactlink {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: #F7B500 4px solid;
+    
+}
+
+.sociallink {
+    text-decoration: none;
+    border-bottom: #fff 4px solid;
+    
+}
 
 
 /* Media Queries
@@ -560,21 +581,49 @@ there.
 */
 
 
-/* Smartphones */
-@media only screen and (max-device-width : 480px) {
+/* Larger than mobile */
+@media (max-width: 500px) {
 
-    .logo {
-        display:none;
+    .navlist {
+        float: left;
+        margin: 0;
+        padding: 0;
+    
     }
     
+    .chrisphoto {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;  
+        margin-bottom: -50px;
+    }
+    
+    .aboutsection {
+        display:none;
+    }
+
+
 }
 
-/* iPads */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Larger than phablet (also point when grid becomes active) */
+@media (max-width: 768px) {
+    .chrisphoto {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;  
+        margin-bottom: -50px;
+    }
+    
+    .aboutsection {
+        display:none;
+    }
 
 }
 
-/* Desktop */
-@media only screen and (min-device-width : 1024px) and (max-device-width : 2024px) {
+
+/* Larger than desktop */
+@media (min-width: 1100px) {
+
+    
 
 }
