@@ -210,6 +210,19 @@ a:hover {
    color: #F7B500;
 }
 
+.footernavlist a {
+    font-family: 'HK Grotesk Regular', sans-serif;
+   text-decoration: none; 
+    border-bottom: 0;
+}
+
+
+
+.footernavlist a:hover {
+   color: #F7B500;
+}
+
+
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -367,6 +380,16 @@ padding-right: 20px;}
     float: right;
     margin-top: 40px;
 }
+
+.footernavlist li {
+  display: inline;
+ list-style-type: none;
+padding-right: 70px;}
+
+.footernavlist {
+    margin-top: 80px;
+}
+
 
 .roles {
   margin-left:20px;
@@ -569,6 +592,7 @@ textarea {
     border-bottom: #fff 4px solid;
     
 }
+
 
 
 /* Media Queries
